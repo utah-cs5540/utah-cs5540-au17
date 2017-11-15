@@ -1,0 +1,301 @@
+<!-- From tutorial found at http://www.w3schools.com/bootstrap/bootstrap_theme_company.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PrepAIRd</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.navbar {
+    margin-bottom: 0;
+    background-color: #455a64;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #455a64 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.panel {
+    border: 1px solid #455a64; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: #fff !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: #fff !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff5722;
+}
+.jumbotron { 
+    background-color: #455a64;
+    color: #ffffff;
+    padding: 100px;
+}
+.overview {
+  line-height: 150%;
+  font-size: 16px;
+}
+.bg-grey {
+    background-color: #eceff1;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.file-lg {
+    font-size: 100px;
+    color: #ff5722;
+}
+.team {
+  padding:50px;
+}
+/* http://stackoverflow.com/questions/609273/convert-an-image-to-grayscale-in-html-css */
+.team-img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><b><font color='#ff5722'>PrepAIRd</font></b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#overview">OVERVIEW</a></li>
+        <li><a href="#video">VIDEO</a></li>
+        <li><a href="#prototype">PROTOTYPE</a></li>
+        <li><a href="#documents">DOCUMENTS</a></li>
+        <li><a href="#team">TEAM</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Prep<font color='#ff5722'>AIR</font>d</h1> 
+  <p>Food Storage Tracking for the Future</p>
+</div>
+
+<!-- Container (Overview Section) -->
+<div id="overview" class="container-fluid overview">
+  <h2>Overview</h2>
+    
+  <p>Americans that have a rainy day food storage are seeing food and money go to waste because they do not have an easy way to track their food purchases, organize their current food storage inventory, and track expiration dates of food products so that they can consume the food before it expires. What food buyers need is a way to track and organize food items that they purchase for storage. We want to enable this with a mobile application that has the following key features:
+
+    <ul>
+    <li>Buyers can automatically populate the tracking tool with food type, amount, expiration date etc. by scanning in an item so they do not have to manually enter in the data</li>
+    <li>Maintaining an up-to-date list of current food items in storage</li>
+    <li>List will be easily accessible while out shopping or at home</li>
+    <li>List will be easily accessible while out shopping or at home</li>
+    <li>Ability to share list with other family members via application or static list</li>
+    <li>Alerting buyers of upcoming food expirations</li>
+    <li>Ability to sort list by expiration date, scan-in date, item name, etc.</li>
+    <li>Recipe suggestions for soon-to-be expiring food in storage</li>
+    </ul>
+
+  Ultimately, it is important for families and individuals to have a solution to help them use the food in their long term storage before it goes bad in order to save thousands of dollars on food costs and more efficiently utilize the available food resources.</p>
+</div>
+
+
+<!-- Container (Video Section) -->
+<div id="video" class="container-fluid text-center bg-grey">
+  <h2>Video</h2>
+
+  <br>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/LC38TYiPmGU" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<!-- Container (Prototype Section) -->
+<div id="prototype" class="container-fluid text-center">
+  <h2>Prototype</h2>
+
+  <br>
+
+  <h3>Task 1 - User’s ability to add and view food storage inventory conveniently.</h3>
+  
+  <div class="row">
+    <div class="col-sm-3 team">
+      <img src="task1/OptionsView.png" class="img-responsive">
+      <h4>Options View</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task1/ScanProduct.png" class="img-responsive">
+      <h4>Scan Barcode Screen</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task1/ScanSuccessful.png" class="img-responsive">
+      <h4>Scan Successful View</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task1/InventoryGridView.png" class="img-responsive">
+      <h4>View of Current Inventory</h4>
+    </div>
+  </div>
+  
+  <br><br>
+
+  <h3>Task 2 - Providing users with expiration date information and alerts regarding upcoming expiration dates.</h3>
+  
+  <div class="row">
+    <div class="col-sm-3 team">
+      <img src="task2/ConfigureNotifications.png" class="img-responsive">
+      <h4>Configure Push Notifications</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task2/Notification.png" class="img-responsive">
+      <h4>Push Notification</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task2/UpcomingExpirations.png" class="img-responsive">
+      <h4>View Upcoming Expirations Dates</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="task2/ExpirationListView.png" class="img-responsive">
+      <h4>Inventory List with Expiration Dates</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Documents Section) -->
+<div id="documents" class="container-fluid text-center bg-grey">
+  <h2>Documents</h2>
+
+  <br>
+
+<!-- TODO: replace '#' character with actual web address in link <a href="... -->
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="panel panel-default">
+      <div class="panel-heading"><span class="glyphicon glyphicon-file file-lg"></span></div>
+      <div class="panel-body"><h4><a href=https://docs.google.com/document/d/1yKgPuaSIquoDJ-BghRz7GXctEoU1Th_onyfHQZNs4Xs/edit?usp=sharing>Assignment 2: Final Report</a></h4></div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="panel panel-default">
+      <div class="panel-heading"><span class="glyphicon glyphicon-file file-lg"></span></div>
+      <div class="panel-body"><h4><a href=https://docs.google.com/presentation/d/1ObJJ8PaQfd7SEDT4Qvr4OgmbFpM2ceUc1cJp0NUi-qQ/edit?usp=sharing>Assignment 2: Presentation</a></h4></div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="panel panel-default">
+      <div class="panel-heading"><span class="glyphicon glyphicon-file file-lg"></span></div>
+      <div class="panel-body"><h4><a href=https://docs.google.com/document/d/13e3xnU3LzEmx6gjJzM3AA0UA7URgG2T_Q6BvaNpCXyg/edit?usp=sharing>Assignment 3: Final Report </a></h4></div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+     <div class="panel panel-default">
+      <div class="panel-heading"><span class="glyphicon glyphicon-file file-lg"></span></div>
+      <div class="panel-body"><h4><a href=https://docs.google.com/presentation/d/1b24WInxhRt_vFsx3ZhXBE0nbVnf0ZMHDWZH2YoDICBA/edit?usp=sharing>Assignment 3: Presentation</a></h4></div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Team Section) -->
+<div id="team" class="container-fluid text-center">
+  <h2>Team</h2>
+  <div class="row">
+    <div class="col-sm-3 team">
+      <img src="team/andraia.jpg" class="img-responsive img-circle team-img">
+      <h3>Andraia Allsop</h3>
+      <h4>Lead Designer</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="team/daniel.jpg" class="img-responsive img-circle team-img">
+      <h3>Daniel Clyde</h3>
+      <h4>Testing Lead</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="team/alice.jpg" class="img-responsive img-circle team-img">
+      <h3>Alice Griffin</h3>
+      <h4>Project Manager</h4>
+    </div>
+    <div class="col-sm-3 team">
+    <img src="team/priyanka.jpg" class="img-responsive img-circle team-img">
+      <h3>Priyanka Parekh</h3>
+      <h4>Content Curator</h4>
+    </div>
+  </div>
+</div> 
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> 
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
