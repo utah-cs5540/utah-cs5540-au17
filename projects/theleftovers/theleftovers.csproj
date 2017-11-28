@@ -1,0 +1,137 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{626CB8DA-B299-43FD-B064-811DB8A7636C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>HCIWebsite</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\0f\6d1b134aa23ab2d820848b4c8bde14d6f55459" />
+    <None Include=".git\objects\1c\13219d19d44fcb38b8e61820f68dd5bd2aa71f" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\27\aace31385412ba3f7e3331ed5d552ea3a7acd2" />
+    <None Include=".git\objects\29\188eb8ec74afa36e20ac86fc563b216812067f" />
+    <None Include=".git\objects\2d\fbcad78192b1818cf9a339297bd5d590bdd862" />
+    <None Include=".git\objects\2e\3249900e3d4e958d72dd439db0619331beadda" />
+    <None Include=".git\objects\2f\b715849eac251e783c9825b9e513d86ab95969" />
+    <None Include=".git\objects\33\f45dc328596d297bf70479312f4df59803f8eb" />
+    <None Include=".git\objects\3e\fb09fd03d29d28255ad117ce8524d1cfc0b4f8" />
+    <None Include=".git\objects\3f\b4011c418c48c79ad7277afbbce5272246db07" />
+    <None Include=".git\objects\41\d7609281d668a15956893211b03a40a9203a5b" />
+    <None Include=".git\objects\44\37798667fe970ac4062f3ab6c2b13dad706d8d" />
+    <None Include=".git\objects\4f\80c5638c7d8b825691746a8348e6c68d8fa528" />
+    <None Include=".git\objects\50\0717151f0b9b46782cd29a0f31200a6312833b" />
+    <None Include=".git\objects\63\41ffd704d8389888dd7b666f89aa11f10d1122" />
+    <None Include=".git\objects\64\4d35e274fd64ddaf6d12af813e820c424176a9" />
+    <None Include=".git\objects\6f\9c0ea47e70fb9cb5617fd5c2f27aeefa8818c5" />
+    <None Include=".git\objects\75\a7e2dc5d577aa1ff397cbca87c94bd687c4aaa" />
+    <None Include=".git\objects\7e\809d64c39a12c379d65c3b270015626a7f31ee" />
+    <None Include=".git\objects\82\113bd8a0062c7bbc101764ea6b4ad049b8e7b7" />
+    <None Include=".git\objects\85\8d7c07aba30ad5a2a5e0ea73f9b479385db044" />
+    <None Include=".git\objects\8e\13868adf25344cef1a801b52c18bce6af09d61" />
+    <None Include=".git\objects\95\bd133e82e63ee2a0018b94c557a043c5c5beab" />
+    <None Include=".git\objects\9c\be704253e6c02c5a040d7cc95e77fe461d4d0b" />
+    <None Include=".git\objects\a6\51ec7c9b69f0699356c5a68959ed083c4488d5" />
+    <None Include=".git\objects\af\fba9811be7c4ffbf83ae6ec339eaa5524b9ce0" />
+    <None Include=".git\objects\b0\6e864a31d9a809c20147bd0a5b22e90b5e7e4c" />
+    <None Include=".git\objects\d4\8426ea269e421b5d5efcf52c8a8dd4f8515597" />
+    <None Include=".git\objects\e1\ce2dd554b948bad796019f6f631dd7f8528b15" />
+    <None Include=".git\objects\ea\494bc5e0da2641881c2c5cab80dc6dc10667de" />
+    <None Include=".git\objects\ec\193b2f82b2a1ef4c7da6f6c5282c10f5cb5857" />
+    <None Include=".git\objects\ff\ea74ee01622e8165833f83208303f515e36d15" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\AndroidDescriptionFinal.png" />
+    <Content Include="assets\AndroidDescriptionStart.png" />
+    <Content Include="assets\AndroidEvaluation.png" />
+    <Content Include="assets\background.jpg" />
+    <Content Include="assets\doc-icon.png" />
+    <Content Include="assets\MainScreen.png" />
+    <Content Include="assets\MainScreenIntegration.png" />
+    <Content Include="assets\nico-disera-profile.jpg" />
+    <Content Include="assets\Schedule.png" />
+    <Content Include="assets\SchedulePageEdit.png" />
+    <Content Include="assets\TaskScreen.png" />
+    <Content Include="assets\TaskScreenAdd.png" />
+    <Content Include="assets\zach-warrell-profile.jpg" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\our-css.css" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\our-js.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

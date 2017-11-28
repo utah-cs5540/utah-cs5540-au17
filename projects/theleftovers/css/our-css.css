@@ -1,0 +1,92 @@
+/* Remove hover background color from bootstrap */
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../assets/background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: #C7C7CC;
+    color: #404040;
+}
+
+.white-text {
+    color: #E5E5EA;
+}
+
+.center {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px; /* margin is -0.5 * dimension */
+    margin-top: -25px;
+}
+
+​ .center-text {
+    text-align: center;
+}
+
+.section-small {
+    height: 500px;
+}
+
+.section {
+    height: 800px;
+    vertical-align: middle;
+}
+
+.section-large {
+    height: 1200px;
+}
+
+.section-extra-large {
+    height: 1750px;
+}
+
+.bg-green {
+    background-color: #4CD964;
+}
+
+.bg-blue {
+    background-color: #5AC8FA;
+}
+
+.bg-red {
+    background-color: #FF3B30;
+}
+
+.bg-dark {
+  background-color: #222222;
+}
+
+.anchor {
+    display: block;
+    height: 50px; /*same height as header*/
+    margin-top: -50px; /*same height as header*/
+    visibility: hidden;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.padded {
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #ff535394;
+}

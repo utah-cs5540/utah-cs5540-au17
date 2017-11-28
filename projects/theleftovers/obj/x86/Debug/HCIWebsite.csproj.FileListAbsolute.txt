@@ -1,0 +1,2 @@
+C:\Users\Owned\Documents\College\CS 5540 - Human_Computer Interact\website\HCIWebsite\obj\x86\Debug\HCIWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Owned\Documents\College\CS 5540 - Human_Computer Interact\website\HCIWebsite\obj\x86\Debug\HCIWebsite.csproj.CoreCompileInputs.cache
