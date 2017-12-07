@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+<title>Commuter Assist Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=icon href="project_thumb.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+#problem li{
+text-align:left
+}
+
+#problem ul{
+margin-left:12em;
+padding:0;
+}
+</style>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#problem" class="w3-bar-item w3-button w3-padding-large">PROBLEM</a>
+    <a href="#overview" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OVERVIEW</a>
+    <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIDEO</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">DOCUMENTS <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="2h- Final Report.pdf" class="w3-bar-item w3-button">Inquiry Report</a>
+        <a href="CommuteAssist-1.pdf" class="w3-bar-item w3-button">Inquiry Presentation</a>
+        <a href="Assignment 3f_ Getting the Design Right (3).pdf" class="w3-bar-item w3-button">Prototype Report</a>
+        <a href="Assignment 3 Presentation.pdf" class="w3-bar-item w3-button">Prototype Presentation</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#problem" class="w3-bar-item w3-button w3-padding-large">PROBLEM</a>
+  <a href="#overview" class="w3-bar-item w3-button w3-padding-large">OVERVIEW</a>
+  <a href="#video" class="w3-bar-item w3-button w3-padding-large">DEMO VIDEO</a>
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large">THE TEAM</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+<div class="mySlides w3-display-container w3-center">
+    <img src="utah.jpg" style="width:100%">
+    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-64 w3-hide-small">
+      <h3 style="text-shadow: 0.2em 0.2em 0.4em black">University of Utah</h3>
+      <p style="text-shadow: 0.2em 0.2em 0.4em black"><b>Our first campus integration begins here!</b></p>
+    </div>
+  </div>
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="welcome">
+    <h1 class="w3-wide">Welcome to Commuter Assist</h1>
+    <p class="w3-opacity"><i>We just made getting to campus more efficient!</i></p>
+  </div>
+
+  <a name="problem">
+  <div class="w3-black w3-container w3-center w3-padding-64" id="problem">
+    <h2 class="w3-wide w3-content">THE PROBLEM</h2>
+    <p class="w3-justify w3-content">As college students the process of getting
+    to campus is a hassle. Aggregating information from a variety of
+    sources like shuttle times, UTA bus and trax scedules, and even
+    just finding a parking spot is an inconvience every college
+    student faces. We have created a solution to this common problem.
+    </p>
+    <p class="w3-justify w3-content">The two main problems we have identified in commuting to campuses
+    are:</p>
+    <ul>
+      <li class="w3-justify w3-content">Public transportation coordinating and scheduling is time consuming and difficult.</li>
+      <li class="w3-justify w3-content">Most campuses do not have enough parking spaces for all of their
+      students with parking passes.</li>
+    </ul>
+    <p class="w3-justify w3-content">
+      To combat this problem we have designed a unique solution that aims to consolidate parking and give information to drivers about parking on campus as well as inform and generate public transportation scheduling for students to get to campus quickly.
+      </p>
+  </div>
+  </a name="problem">
+
+    <a name="overview">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="overview">
+    <h2 class="w3-wide">THE OVERVIEW</h2>
+    <p class="w3-justify w3-content"> Simply register and set up your preferences. This will allow the app to calculate the most efficient route to campus using your preferred mode of transportation. UTA systems and the on-campus shuttle system is all integrated into the app to give you a comprehensive commute solution.</p>
+
+    <p class="w3-justify w3-content"> The system will keep real-time data on the capacity of each parking lot. Since the app will know your schedule, it will guide you to the lot with the best chance of finding a spot without wasting time looking for a space. If you're in a hurry, we have designed a parking reservation system that will guide a user to a reserved parking spot. Tire spikes will prevent others from using your parking space after you have reserved it. As you approach the spot, the spikes will be lowered and you will be able to enter your space. </p>
+
+    </div>
+    </a>
+
+    <a name="video">
+    <div class="w3-black w3-container w3-center w3-padding-64" id="video">
+    <h2 class="section-heading">VIDEO PROTOTYPE</h2>
+    <video class="w3-content" width="100%" height="100%" frameborder="0" allowfullscreen="" controls>
+      <source src="commuterassist_initialvideo.mp4" type="video/mp4">
+    </video>
+    </div>
+    </a>
+
+
+    <!-- The Team Section -->
+    <a name="team">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="team">
+    <h2 class="w3-wide">THE TEAM</h2>
+    <p class="w3-justify"></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-quarter">
+	<p>Stefan Kapetanovic </p>
+	<p>Team Manager</p>
+        <img src="stefan.jpg" class="w3-round w3-margin-bottom" alt="Stefan" style="width:70%">
+      </div>
+       <div class="w3-quarter">
+	 <p>Warren Schweigert</p>
+	 <p>Head of Communications &amp PR</p>
+        <img src="Warren.jpg" class="w3-round" alt="Warren" style="width:70%">
+      </div>
+      <div class="w3-quarter">
+	<p>Alec Adair</p>
+	<p>Lead Tester &amp Head of QA</p>
+        <img src="alec.png" class="w3-round w3-margin-bottom" alt="Alec" style="width:70%">
+      </div>
+        <div class="w3-quarter">
+	  <p>Rusty Griggs</p>
+	  <p>Lead Designer</p>
+        <img src="rusty.jpg" class="w3-round" alt="Rusty" style="width:70%">
+      </div>
+    </div>
+    </div>
+    </a>
+
+  <div class="w3-black w3-container w3-center w3-padding-64" id="documents">
+    <h2 class="w3-wide">DOCUMENTS</h2>
+    <p class="w3-justify w3-content w3-center">Below are our complete guides to the development of Commuter Assist.</p>
+    <table class="w3-content w3-center w3-padding-64">
+      <tr>
+        <th><a href="2h- Final Report.pdf">Inquiry Report</a></th>
+        <th><a href="CommuteAssist-1.pdf">Inquiry Presentation</a></th>
+        <th><a href="Assignment 3f_ Getting the Design Right (3).pdf">Prototype Report</a></th>
+        <th><a href="Assignment 3 Presentation.pdf">Prototype Presentation</a></th>
+      </tr>
+    </table>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey">
+  <p class="w3-medium">Created for Human Computer Interaction - CS 5540</p>
+  <p class="w3-medium">© 2017 Commuter Assist. All Rights Reserved.</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
